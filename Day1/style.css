@@ -1,0 +1,27 @@
+/* Used a universal selector*/
+* {                         
+    box-sizing: border-box;
+}
+
+/* Used a ID selector*/
+#subHeading{
+    font-size: 17px;
+    font-family: "Open Sans";
+}
+#readMore{
+    text-align: center;
+    margin: 0 0 5px 0;
+    font-size: 15px;
+}
+
+/* Used combinators selector*/
+body > a{                   
+    font-size: medium;
+    cursor: pointer;
+}   
+
+/* Used Class selector*/
+.text{                      
+    font-family: "Open Sans";
+    font-size: 15px;
+}

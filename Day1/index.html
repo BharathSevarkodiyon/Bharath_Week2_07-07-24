@@ -1,0 +1,59 @@
+<!-- 
+1. Create a simple HTML page and style it using all three methods.
+2. Practice basic selectors (element, class, ID). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> <!-- Used a new fonts from goole api -->
+    <link rel="stylesheet" href="./style.css">  <!-- Used External CSS -->
+    <!-- class and ID selector are practiced in external CSS --> 
+    <style>
+        /* Used Internal CSS*/
+        /* Used element selector */
+        body{
+            width: 542px;
+            border: 2px solid wheat;
+            padding: 0 40px;
+            margin: 0 auto;
+            border-radius: 50px;
+            box-shadow: 0px 0px 20px wheat;
+        }
+    </style>
+</head>
+<body>
+    <!-- Used Inline CSS-->
+    <h1 style="background: rgb(255,165,0); text-align: center; letter-spacing: 4px; padding: 15px 0 2px; border-radius: 50px;
+    background: linear-gradient(90deg, rgba(255,165,0,1) 10%, rgba(255,255,255,0.4374124649859944) 50%, rgba(98,233,98,1) 90%);"> 
+    BGMI
+    <p id="subHeading" >BATTLEGROUNDS MOBILE INDIA</p>
+    </h1>
+    
+    <p class="text">
+        Battlegrounds Mobile India (BGMI), previously known as PUBG Mobile India is a version of PUBG Mobile, available in
+        India. It is an online multiplayer battle royale game by Krafton. The game was initially released on 2
+        July 2021 for Android devices, and on 18 August for iOS devices. There are two official tournament in a calendar
+        year in BGMI, held by Krafton India Esports. First is BGMI India Series or BGIS and later one is BGMI Pro Series or
+        BMPS.
+    </p>
+    
+    <p class="text"> 
+        As of July 2022, BGMI surpassed 157 million downloads on the Google Play store. The game was banned in India on July
+        28, 2022, by the Indian government. According to a statement from Krafton, the ban was removed on May 26,2023.
+    </p>
+    
+    <p class="text">
+        It was reported in November 2020 that PUBG Mobile would be relaunched in India under the name PUBG Mobile India. On
+        24 November 2020, The Times of India reported that PUBG Studios and South Korea's video game company Krafton had
+        registered PUBG India Private Limited under the Ministry of Corporate Affairs, Government of India in order to
+        relaunch PUBG Mobile in India.
+    </p>
+    
+    <p id="readMore">
+        <a href="#">Read More</a>
+    </p>
+</body>
+</html>
