@@ -1,0 +1,45 @@
+/* Box model used propery are padding, border, margin */
+/* Created a layout used display properties block, inline-block
+ and positions used relative, absolute */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    left: 7.4%;
+    top: 28.2%;
+    z-index: 20;
+    border-radius: 50px 0 50px 0;
+    padding: 20px;
+    width: 56.7%;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(to left, rgb(251, 147, 36) 70%, rgb(30, 11, 4) 75%);
+}
+.container > .imageContainer{
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+}
+.container > p {
+    margin-left: 25px;
+    margin-top: 0px;
+    width: 70%;
+    display: inline-block;
+}
+.container>.imageContainer > img{
+    height: 170px;
+    width: 100%;
+}
+#bg-img{
+    position: absolute;
+    top: -8%;
+    z-index: 10;
+    height: 655px;
+    width: 100%;
+    object-fit: contain;
+    /* background-size: contain; */
+}
