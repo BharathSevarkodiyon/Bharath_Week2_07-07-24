@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.img {
+    height: 607px;
+    width: 65%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(./images/images_2.jpg)
+}
+
+.container {
+    height: 600px;
+    width: 33%;
+    float: right;
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: cursive;
+    font-style: normal;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: system-ui;
+    margin-bottom: 13px;
+}
+
+.content {
+    font-style: oblique;
+    margin-bottom: 15px;
+}
+
+.container>#footer {
+    height: 80px;
+    font-weight: 900;
+    display: inline-flex;
+    align-items: center;
+    font-style: italic;
+    background: #FC354C;
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
+    background: linear-gradient(to right, #0ABFBC, #FC354C);
+    color: transparent;
+    background-clip: text;
+}

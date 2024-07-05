@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+body .img {
+    height: 607px;
+    width: 67%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(./images/image_1.jpg);
+    float: right;
+}
+
+body .container {
+    height: 600px;
+    width: 33%;
+    margin-left: 15px;
+}
+
+h1 {
+    font-family: Outfit;            /* Google Fonts family Outfit is used. */
+    font-style: normal;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: "Alegreya SC";     /* Google Fonts family Alegreya SC is used.*/
+    margin-bottom: 13px;
+}
+
+.content {
+    font-family: "Lato";            /* Google Fonts family Lato is used. */
+    font-style: oblique;
+    margin-bottom: 15px;
+}
