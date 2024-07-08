@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigator Bar */
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #F4F4F9;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 20px;
+    margin: 0 0 30px;
+}
+.nav img{
+    width: 50%;
+    height: inherit; 
+    border: none;
+    border-radius: 50px;
+}
+.nav ul{
+    height: inherit;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    padding: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Poppins";
+    margin: 0 5px 0;
+}
+
+.nav .contact{
+    height: inherit;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home.html */
+#content{
+    width: 100%;
+    height: 80vh;
+    
+}
+#content h1{
+    text-align: center;
+    font-family: "Poppins";
+    margin: 20px 0;
+    background: #BE93C5;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #7BC6CC, #BE93C5);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #7BC6CC, #BE93C5);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        color: transparent;
+}
+
+#content .grid{
+display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 40px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#content .grid .block{
+    padding: 18px;
+    border-radius: 20px;
+    background: #1c92d2;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #f2fcfe, #1c92d2);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 0px 5px #1c92d2;
+}
+
+#content .grid .block h3{
+    font-family: "Montserrat";
+    margin: 0 0 15px;
+}
+
+#content .grid .block p{
+    font-family: "Outfit";
+}
+
+/* About Us */
+.aboutus{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.aboutus h3{
+    margin: 50px 0 10px;
+    font-family: "Montserrat";
+    background: #2c3e50;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3498db, #2c3e50);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+            color: transparent;
+}
+.aboutus p{
+    font-family: "Outfit";
+}
+.aboutus ul li{
+    padding: 3px 0;
+}
+
+/* Contact */
+.contact{
+    height: 50vh;
+    width: 42%;
+    margin: 0 auto;
+}
+.contact h3{
+    margin: 0 0 30px;
+    font-family: "Montserrat";
+    background: #2c3e50;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3498db, #2c3e50);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        color: transparent;
+}
+.contact p{
+    margin: 20px;
+    font-family: "Outfit";
+}
+span{
+    font-weight: bold;
+    font-family: "Montserrat";
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        color: transparent;
+}
