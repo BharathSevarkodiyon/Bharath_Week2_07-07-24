@@ -118,7 +118,7 @@ h3 {
 }
 
 /* Laptop responsive */
-@media only screen and (max-device-width:1024px) {
+@media only screen and (max-width:1024px) {
     .nav {
         max-width: 1024px;
         margin: 0 0 25px;
@@ -173,7 +173,7 @@ h3 {
 
 
 /* Tablet responsive */
-@media only screen and (max-device-width:768px) {
+@media only screen and (max-width:768px) {
     .nav {
         max-width: 768px;
         margin: 0 0 20px;
@@ -258,7 +258,7 @@ h3 {
 
 
 /* Mobile responsive */
-@media only screen and (max-device-width:425px) {
+@media only screen and (max-width:425px) {
     .nav {
         max-width: 425px;
         margin: 0 0 10px;
@@ -335,7 +335,7 @@ h3 {
 }
 
 /* Smaller Mobile responsive */
-@media only screen and (max-device-width:375px) {
+@media only screen and (max-width:375px) {
     .nav {
         max-width: 375px;
         margin: 0 0 10px;
