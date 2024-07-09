@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: #007BC3;
+    text-decoration: underline;
+}
+
+.nav {
+    width: 1349px;
+    height: 35px;
+    display: flex;
+    margin: 0 0 30px;
+}
+
+/* common */
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li {
+    font-size: 17px;
+}
+
+/* Specific Id and Class */
+.nav #heading {
+    width: 80%;
+}
+
+.nav #heading li {
+    width: 100%;
+    text-align: center;
+}
+
+.nav #heading li:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav #auth {
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.nav #auth li {
+    width: 33%;
+    padding: 7px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#auth li:nth-child(1) {
+    background-color: #FFB900;
+    font-size: 16px;
+}
+
+#auth li:nth-child(2) {
+    background-color: #3B4057;
+    color: white;
+    font-size: 16px;
+}
+
+/* left and right images */
+.body {
+    width: 1349px;
+    height: 700px;
+    padding: 10px;
+}
+
+.body #left {
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.body #right {
+    height: 100%;
+    margin-left: 15px;
+    float: right;
+}
+
+/* Main content */
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #B6B6B6;
+    margin-bottom: 30px;
+}
+
+.content {
+    font-family: "Outfit";
+    padding: 0 0 10px 0;
+}
+
+/* Main Image with Adv */
+.body #img {
+    height: 40%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#img img:nth-of-type(1) {
+    float: left;
+    object-fit: contain;
+}
+
+#img img:nth-of-type(2) {
+    float: right;
+    object-fit: contain;
+}
+
+/* Laptop responsive */
+@media only screen and (max-width:1024px) {
+    .nav {
+        width: 1024px;
+        margin: 0 0 25px;
+    }
+
+    .nav #auth li {
+        width: 41%;
+    }
+
+    /* left and right images */
+    .body {
+        height: 850px;
+        width: 1023px;
+    }
+
+    .body #left {
+        width: 140px;
+    }
+
+    .body #right {
+        width: 140px;
+    }
+
+    h3 {
+        margin-bottom: 0px;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        height: 40%;
+        width: 68%;
+        margin-bottom: 0px;
+        justify-content: space-between;
+    }
+
+    #img img:nth-of-type(1) {
+        width: 60%;
+        object-fit: contain;
+        float: left;
+    }
+
+    #img img:nth-of-type(2) {
+        width: 35%;
+        object-fit: contain;
+        float: right;
+    }
+
+}
+
+/* Tablet responsive */
+@media only screen and (max-width:768px) {
+    .nav {
+        width: 768px;
+        margin: 0 0 20px;
+    }
+
+    /* common */
+    .nav ul li {
+        font-size: 15px;
+    }
+
+    /* Specific Id and Class */
+    .nav #heading {
+        width: 70%;
+    }
+
+    .nav #auth {
+        width: 30%;
+    }
+
+    #auth li:nth-child(1) {
+        background-color: #FFB900;
+        font-size: 15px;
+    }
+
+    #auth li:nth-child(2) {
+        background-color: #3B4057;
+        color: white;
+        font-size: 15px;
+    }
+
+    /* left and right images */
+    .body {
+        width: 768px;
+        height: 950px;
+    }
+
+    .body #left {
+        width: 110px;
+    }
+
+    .body #right {
+        width: 110px;
+    }
+
+    /* Main content */
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin-bottom: 0px;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        width: 63%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+
+    #img img:nth-of-type(1) {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #img img:nth-of-type(2) {
+        display: none;
+    }
+}
+
+
+/* Mobile responsive */
+@media only screen and (max-width:425px) {
+    .nav {
+        width: 425px;
+        margin: 0 0 10px;
+    }
+
+    /* common */
+    .nav ul li {
+        font-size: 13px;
+    }
+
+    /* Specific Id and Class */
+    .nav #heading {
+        width: 100%;
+    }
+
+    .nav #auth {
+        display: none;
+    }
+
+    /* left and right images */
+    .body {
+        height: 750px;
+        width: 425px;
+        padding: 7px;
+    }
+
+    .body #left {
+        height: 600px;
+        width: 95px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .body #right {
+        display: none;
+    }
+
+    /* Main content */
+    h1 {
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+
+    h3 {
+        color: #B6B6B6;
+        margin-bottom: 10px;
+        padding-right: 5px;
+        font-size: 19px;
+    }
+
+    .content {
+        font-family: "Outfit";
+        font-size: 14px;
+        padding: 0 0 0px 0;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        height: 20%;
+        width: 270px;
+        display: flex;
+        margin-bottom: 8px;
+    }
+
+    #img img:nth-of-type(1) {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    #img img:nth-of-type(2) {
+        display: none;
+    }
+}
+
+/* Smaller Mobile responsive */
+@media only screen and (max-width:375px) {
+    .nav {
+        width: 375px;
+        margin: 0 0 10px;
+    }
+
+    /* Specific Id and Class */
+    .nav #heading {
+        width: 100%;
+    }
+
+    .nav #auth {
+        display: none;
+    }
+
+    /* left and right images */
+    .body {
+        height: 680px;
+        width: 375px;
+        padding: 10px;
+    }
+
+    .body #left {
+        display: none;
+    }
+
+    .body #right {
+        display: none;
+    }
+
+    /* Main content */
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        color: #B6B6B6;
+        margin-bottom: 7px;
+        font-size: 16px;
+    }
+
+    .content {
+        font-family: "Outfit";
+        font-size: 13px;
+        padding: 0 0 10px 0;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        height: 28%;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #img img:nth-of-type(1) {
+        height: 100%;
+        margin: 0;
+        object-fit: contain;
+    }
+
+    #img img:nth-of-type(2) {
+        display: none;
+    }
+}
