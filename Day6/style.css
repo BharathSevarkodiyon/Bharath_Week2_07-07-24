@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #007BC3;
+    text-decoration: underline;
+}
+.nav {
+    max-width: 1440px;
+    height: 35px;
+    display: flex;
+    margin: 0 0 30px;
+}
+
+/* common */
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li {
+    font-size: 17px;
+}
+
+/* Specific Id and Class */
+.nav #heading {
+    width: 80%;
+}
+
+.nav #heading li {
+    width: 100%;
+    text-align: center;
+}
+
+.nav #heading li:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav #auth {
+    width: 20%;
+}
+
+.nav #auth li {
+    width: 33%;
+    margin: 0 13px;
+    padding: 7px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#auth li:nth-child(1) {
+    background-color: #FFB900;
+    font-size: 16px;
+}
+
+#auth li:nth-child(2) {
+    background-color: #3B4057;
+    color: white;
+    font-size: 16px;
+}
+
+/* left and right images */
+.body {
+    max-width: 1440px;
+    min-height: 700px;
+    padding: 10px;
+}
+
+.body #left {
+    height: inherit;
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+}
+
+.body #right {
+    height: inherit;
+    width: 160px;
+    margin-left: 15px;
+    float: right;
+}
+
+/* Main content */
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #B6B6B6;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-family: "Outfit";
+    padding: 0 0 10px 0;
+}
+
+/* Main Image with Adv */
+.body #img {
+    height: 40%;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#img img:nth-of-type(1) {
+    float: left;
+}
+
+#img img:nth-of-type(2) {
+    float: right;
+}
+
+/* Laptop responsive */
+@media screen and (max-device-width:1024px) {
+    .nav {
+        max-width: 1024px;
+        margin: 0 0 25px;
+    }
+
+    /* common */
+    .nav ul li {
+        font-size: 17px;
+    }
+
+    /* left and right images */
+    .body {
+        max-width: 1024px;
+        padding: 10px;
+    }
+
+    .body #left {
+        height: 600px;
+        width: 100px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .body #right {
+        height: 600px;
+        width: 100px;
+        float: right;
+        margin-left: 15px;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        width: 76%;
+        margin-bottom: 30px;
+    }
+
+    #img img:nth-of-type(1) {
+        width: 60%;
+        object-fit: contain;
+        float: left;
+    }
+
+    #img img:nth-of-type(2) {
+        width: 35%;
+        object-fit: contain;
+        float: right;
+    }
+
+}
+
+
+
+
+/* Tablet responsive */
+@media screen and (max-device-width:768px) {
+    .nav {
+        max-width: 768px;
+        margin: 0 0 20px;
+    }
+
+    /* common */
+    .nav ul li {
+        font-size: 15px;
+    }
+
+    /* Specific Id and Class */
+    .nav #heading {
+        width: 70%;
+    }
+
+    .nav #auth {
+        width: 30%;
+    }
+
+    #auth li:nth-child(1) {
+        background-color: #FFB900;
+        font-size: 15px;
+    }
+
+    #auth li:nth-child(2) {
+        background-color: #3B4057;
+        color: white;
+        font-size: 15px;
+    }
+
+    /* left and right images */
+    .body {
+        max-width: 768px;
+    }
+
+    .body #left {
+        height: 600px;
+        width: 100px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .body #right {
+        height: 600px;
+        width: 100px;
+        float: right;
+        margin-left: 15px;
+    }
+
+    /* Main content */
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        color: #B6B6B6;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        font-family: "Outfit";
+        padding: 0 0 10px 0;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        /* height: 40%; */
+        width: 68%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    #img img:nth-of-type(1) {
+        float: left;
+    }
+
+    #img img:nth-of-type(2) {
+        float: right;
+    }
+}
+
+
+/* Mobile responsive */
+@media screen and (max-device-width:425px) {
+    .nav {
+        max-width: 425px;
+        margin: 0 0 10px;
+    }
+
+    /* common */
+    .nav ul li {
+        font-size: 13px;
+    }
+
+    /* Specific Id and Class */
+    .nav #heading {
+        width: 100%;
+    }
+
+    .nav #auth {
+        display: none;
+    }
+
+    /* left and right images */
+    .body {
+        max-width: 425px;
+        padding: 7px;
+    }
+
+    .body #left {
+        height: 600px;
+        width: 95px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .body #right {
+        display: none;
+    }
+
+    /* Main content */
+    h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    h3 {
+        color: #B6B6B6;
+        margin-bottom: 1    0px;
+        padding-right: 5px;
+        font-size: 19px;
+    }
+
+    .content {
+        font-family: "Outfit";
+        font-size: 15px;
+        padding: 0 0 10px 0;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        width: 270px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-bottom: 10px;
+    }
+
+    #img img:nth-of-type(1) {
+        object-fit: contain;
+        height: 170px;
+        width: 100%;
+    }
+
+    #img img:nth-of-type(2) {
+        display: none;
+    }
+}
+
+/* Smaller Mobile responsive */
+@media screen and (max-device-width:375px) {
+    .nav {
+        max-width: 375px;
+        margin: 0 0 10px;
+    }
+
+    /* left and right images */
+    .body {
+        max-width: 425px;
+        padding: 10px;
+        border: 2px solid;
+    }
+
+    .body #left {
+        display: none;
+    }
+
+    .body #right {
+        display: none;
+    }
+
+    /* Main content */
+    h1 {
+        font-size: 23px;
+        /* align-items: center; */
+        border: 2px solid;
+    }
+
+    h3 {
+        color: #B6B6B6;
+        margin-bottom: 7px;
+        padding-right: 5px;
+        font-size: 17px;
+    }
+
+    .content {
+        font-family: "Outfit";
+        font-size: 14px;
+        padding: 0 0 10px 0;
+    }
+
+    /* Main Image with Adv */
+    .body #img {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    #img img:nth-of-type(1) {
+        object-fit: contain;
+        height: 170px;
+        width: 100%;
+    }
+
+    #img img:nth-of-type(2) {
+        display: none;
+    }
+}
